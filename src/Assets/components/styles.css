@@ -1,4 +1,77 @@
-.bg-color{
-    background: linear-gradient(to bottom,#7d1485, #1f1e1e);
-    color: #fff;
-   }
+ 
+/* Prediction */
+.weather-cards {
+    display: flex;  
+    width: auto;
+    
+  } 
+/* styles.css */
+
+.bg-card {
+    background: linear-gradient(to right, #B32DD4,#373333 ); /* Default gradient background */
+   
+    width: 121px;
+height: 119px;
+margin-right: 89px;
+margin-bottom: 89px;
+border-radius: 25px;
+display: flex;
+flex-direction: column;
+justify-content: center; /* Center vertically */
+align-items: center; 
+  }
+  /* styles.css */
+
+.card-img {
+    width: 56px;   /* Set the desired width */
+    height: 47.16px;  /* Set the desired height */
+    object-fit: cover;  /* Adjust object-fit as needed */
+  }
+
+  /* search section */
+  .search-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .convert-button {
+    height: 66px;
+    width: 200px; /* Adjust width as needed */
+  }
+
+ .bg-color{
+  background: linear-gradient(to bottom,#7d1485, #1f1e1e);
+  color: #fff;
+ }
+ /* headersection */
+ 
+/* info */
+ .datesec {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5rem;
+  font-size: 1.25rem;
+  color: #fff; 
+  border-radius: 0.25rem;
+}
+
+.date {
+   padding-left: 400px;
+}
+
+.time {
+  padding-right: 200px;
+}
+.bg-green{
+  background-color: #10C99C;
+}
+  .bfont{
+    font-size: 30px;
+    font-weight: bold;
+  }
+  
+  
+  
+  

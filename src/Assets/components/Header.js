@@ -1,13 +1,15 @@
- import React from 'react';
+import React from 'react';
 import Navbar from 'react-bootstrap/Navbar'; 
 import Nav from 'react-bootstrap/Nav'; 
-import logo from '../images/logo.png';
- function HeaderSec() {
+import logo from '../images/logo.png'; 
+import { Link } from 'react-router-dom';
+
+function HeaderSec() {
   const navLinkStyle = { color: 'white' }; // Set text color to white
 
   return (
     <Navbar expand="lg" className="bg-dark">
-      <img className="mb-5" src={logo} alt='logo' /> 
+      <Link to={'/'}> <img className="mb-5" src={logo} alt='logo' /> </Link>
        
       <Navbar.Brand href="#home" style={{ color: 'white', fontSize:'69px' }}>WeatherSphere</Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />

@@ -1,15 +1,20 @@
 import './App.css';
-import 'bootstrap/dist/css/bootstrap.min.css'; 
-import HeaderSec from './Assets/components/Header';   
-import FooterSec from './Assets/components/Footer';
-import HeroSec from './Assets/components/Herosection';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Footersec from './Assets/components/Footer';
+import HeaderSec from './Assets/components/Header';  
+import SearchLocation from './Assets/components/search';
+import { Route, Routes } from 'react-router-dom';
+import Infosec from './Assets/components/Info';
 
 function App() {
   return (
     <div>
-      <HeaderSec/>  
-      <HeroSec/>
-      <FooterSec/>
+      <HeaderSec/> 
+      <Routes>
+        <Route path="/" element={<SearchLocation />} /> 
+        <Route path="/redirected" element={<Infosec />} />
+      </Routes>  
+      <Footersec/> 
     </div>
   );
 }

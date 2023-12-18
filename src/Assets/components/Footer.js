@@ -1,7 +1,7 @@
 import React from 'react';
 import './styles.css';
 
-function FooterSec() {
+function Footersec() {
   return (
     <footer className="footer bg-color py-4"> {/* Add py-4 for top and bottom padding */}
       <div className="container">
@@ -15,4 +15,4 @@ function FooterSec() {
   );
 }
 
-export default FooterSec;
+export default Footersec;
