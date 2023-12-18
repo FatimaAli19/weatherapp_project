@@ -13,7 +13,7 @@ import logo from '../images/logo.png';
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="ms-auto me-3">
-          <Nav.Link href="#today" stylse={navLinkStyle}>Today</Nav.Link>
+          <Nav.Link href="#today" style={navLinkStyle}>Today</Nav.Link>
           <Nav.Link href="#tomorrow" style={navLinkStyle}>Tomorrow</Nav.Link>
           <Nav.Link href="#MonthlyForecast" style={navLinkStyle}>MonthlyForecast</Nav.Link> 
         </Nav>
