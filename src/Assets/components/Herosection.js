@@ -19,4 +19,5 @@ function HeroSec() {
                 </>
         );
 }
+
 export default HeroSec;
